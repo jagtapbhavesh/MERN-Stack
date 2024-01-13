@@ -36,5 +36,7 @@ let car2 = {
 car1.getBrandName()
 car2.getBrandName()
 
+// Template Literal
 firstName = "Oreo"
 console.log(`My name is ${firstName}`)
+
