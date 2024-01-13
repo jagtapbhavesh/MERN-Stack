@@ -17,3 +17,24 @@ console.log(john.address)
 console.log(john.address.city)
 console.log(john.hobbies[0])
 console.log(john.getBirthYear())
+
+
+let car1 = {
+    brand:"BMW",
+    getBrandName: function() {
+        console.log("My car brand is "+this.brand)
+    }
+}
+
+let car2 = {
+    brand: "Ford",
+    getBrandName: function() {
+        console.log(`My car brand is ${brand}`)
+    }
+}
+
+car1.getBrandName()
+car2.getBrandName()
+
+firstName = "Oreo"
+console.log(`My name is ${firstName}`)
